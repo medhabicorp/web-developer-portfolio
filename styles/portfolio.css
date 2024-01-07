@@ -9,13 +9,15 @@ body {
     border: 0;
     padding: 15px 35px;
     color: white;
+    font-size: 20px;
 
 }
 /* nav related styles */
 nav {
     display: flex;
     align-items:center;
-    justify-content: space-between;
+    justify-content: space-between; 
+    margin: 0 200px;
 }
 .text-primary {
     color: #FD6E0A;
@@ -39,4 +41,24 @@ nav a{
     text-decoration: none;
     color: #474747;
     color:
+}
+.header{
+    background: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    width: 400px;
+}
+.btn-contact{
+    border-radius: 5px;
+    background: #FFF8F3;
+    border: 1px solid #FD6E0A;
+    padding: 15px 35px;
+    color: #FD6E0A;
+    font-size: 20px;
 }
