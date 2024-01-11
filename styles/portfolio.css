@@ -16,7 +16,9 @@ body {
     color: #181818;
     text-align: center;
     font-size: 35px;
-    font-weight: 700; 
+    font-weight: 700;
+    margin-bottom: 0px;
+
 }
 /* nav related styles */
 nav {
@@ -86,7 +88,7 @@ nav a{
     margin-bottom: 5px;
 }
 .banner-content{
-    max-width: 500px;
+    max-width: 50%;
 }
 
 
@@ -98,3 +100,15 @@ nav a{
     background: #FFF8F3;
     margin: 160px 230px; 
 }
+
+.section-description{
+    color:  #757575;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 30px
+    margin-top: 0px;
+}
+
